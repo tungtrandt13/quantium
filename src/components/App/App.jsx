@@ -13,9 +13,9 @@ class App extends Component {
                     <h1 className="display-3 d-block">Solid-State Batteries That&nbsp;Work</h1>
                     <p className="my-3 qssubtitle">
                         We are redefining the frontier of battery technology
-			</p>
+                    </p>
                     <p className="lead mt-4">
-                        <a className="btn btn-lg btn-outline-light" href="https://jobs.lever.co/quantumscape" target="_blank"
+                        <a className="btn btn-lg btn-outline-light" href="https://jobs.lever.co/quantumscape"
                             role="button">Join Us</a>
                     </p>
                 </div>
@@ -23,8 +23,8 @@ class App extends Component {
                     <div className="container text-center">
                         <div className="row">
                             <div className="col-md my-auto text-lg-right">
-                                1730 Technology Drive, San&nbsp;Jose,&nbsp;CA 95110
-					</div>
+                                About us
+                            </div>
                             <div className="col-md-auto my-auto">
                                 <a className="text-muted" href="mailto:info@quantumscape.com">Contact Us</a>
                             </div>
@@ -33,7 +33,7 @@ class App extends Component {
                             </div>
                             <div className="col-md my-auto text-lg-left">
                                 ©&nbsp;2020 QuantumScape Corporation
-					</div>
+                            </div>
                         </div>
                     </div>
                 </div>

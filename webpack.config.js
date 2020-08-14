@@ -11,8 +11,6 @@ module.exports = {
             template: './src/index.html',
             inject: true
         }),
-        /*new webpack.NamedModulesPlugin(),
-        new webpack.HotModuleReplacementPlugin()*/
     ],
     resolve: {
         extensions: ['.js', '.jsx', '.css'],
