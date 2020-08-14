@@ -1,0 +1,51 @@
+.qscover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../../../public/assets/img/blue.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .qslogo {
+    max-height: 10vh;
+    max-width: 70vw;
+  }
+  
+  .qssubtitle {
+    font-weight: 300;
+    font-size: 1.75rem;
+  }
+  
+  .qstranslucent {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  @media (max-width: 575.98px) {
+    .display-1 {
+      font-size: 3rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  
+    .display-2 {
+      font-size: 2.75rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  
+    .display-3 {
+      font-size: 2.25rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  
+    .display-4 {
+      font-size: 1.75rem;
+      font-weight: 300;
+      line-height: 1.2;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

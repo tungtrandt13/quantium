@@ -1,0 +1,60 @@
+{
+  "name": "quantium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --ext .js --ext .jsx . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && rm -rf build/temp/ && webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tungtrandt13/quantium.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "TungTM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tungtrandt13/quantium/issues"
+  },
+  "homepage": "https://github.com/tungtrandt13/quantium#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.7.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-module-alias": "^1.6.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bundle-loader": "^0.5.5",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "history": "^4.7.2",
+    "html-webpack-plugin": "^2.30.1",
+    "jsx-loader": "^0.13.2",
+    "open-browser-webpack-plugin": "0.0.5",
+    "react-router": "^4.2.0",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
