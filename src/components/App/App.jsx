@@ -7,7 +7,7 @@ class App extends Component {
             // <div></div>
             <div className="h-100 d-flex flex-column justify-content-between text-center text-light">
                 <div className="container my-3">
-                    <img className="mx-auto qslogo" src="./public/assets/img/logo_light.png" />
+                    <img className="mx-auto qslogo" src="./assets/img/logo_light.png" />
                 </div>
                 <div className="container p-3">
                     <h1 className="display-3 d-block">Solid-State Batteries That&nbsp;Work</h1>

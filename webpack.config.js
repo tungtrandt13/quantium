@@ -1,5 +1,5 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-
+var path = require('path');
 
 module.exports = {
     entry: './src/index.jsx',
@@ -14,6 +14,12 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.js', '.jsx', '.css'],
+    },
+    devServer: {
+        contentBase: path.join(__dirname, './public'),
+        publicPath: '/',
+        compress: true,
+        port: 8081
     },
     module: {
         rules: [
