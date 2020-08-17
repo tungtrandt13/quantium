@@ -19,7 +19,10 @@ module.exports = {
         contentBase: path.join(__dirname, './public'),
         publicPath: '/',
         compress: true,
-        port: 8081
+        port: 8081,
+        openPage: '/contact',
+        historyApiFallback: true,
+        host: '103.69.195.214'
     },
     module: {
         rules: [
